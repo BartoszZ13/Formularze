@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formularz 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <ul class="topnav">
+            <h1>Formularze</h1>
+            <li><a href="index.html">Formularz 1</a></li>
+            <li><a href="form2.html">Formularz 2</a></li>
+            <li><a href="form3.html">Formularz 3</a></li>
+            <li><a href="form4.html">Formularz 4</a></li>
+            <li><a href="form5.html" class="active">Formularz 5</a></li>
+            <li><a href="form6.html">Formularz 6</a></li>
+        </ul>
+    </header>
+    <form action="" method="post">
+    <section id="sect1">
+        <h1>
+        	Dane osobowe
+    	</h1>
+        <label>
+            Imię: 
+        </label>
+        <input id="input2" type="text" size="25" name="imie" />
+        <br />
+        <label>
+            Nazwisko: 
+        </label>
+        <input id="input2" type="text" size="25" name="nazw" />
+        <br />
+        <label>
+            Data urodzenia: 
+        </label>
+        <input id="input2" type="text" size="25" name="date" placeholder="dd/mm/rrrr"/>
+        <br />
+        <label>
+            Miejsce urodzenia:
+        </label>
+        <input id="input2" id="input1" type="text" size="25" name="urodz"/>
+    
+    </section>
+    <section id="sect1">
+        <h1>
+        	Pozostałe informacje
+    	</h1>
+        <label>
+            Wykształcenie:
+        </label>
+        
+        <input type="radio" name="wykszt" value="podstawowe" checked />Podstawowe
+        <input type="radio" name="wykszt" value="średnie" />Średnie
+        <input type="radio" name="wykszt" value="wyższe" />Wyższe
+        <br />
+        <label>
+            Zawód wykonywany:
+            <input id="input1" type="text" size="25" name="zawod" />
+        </label>
+        <br />
+        <div id="div1">
+            Dodatkowe
+            <br />
+            umiejętności:
+            </div>
+        <div>
+        <textarea id="text1" rows="10" cols="40">
+        </textarea>
+        </div>
+        
+        <input id="input1" type="submit" name="wyslij" value="Wyślij" />&nbsp;&nbsp;
+        <input id="input1" type="reset" name="zeruj" value="Wyczyść" />
+    </section>
+    <footer class="footershort">
+        <address>
+        Copyright <a href="mailto:bartosz.zawadzki-pietrzak@tm1.edu.pl">Bartosz Zawadzki - Pietrzak</a> 2022 &copy;
+        </address>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formularz 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <ul class="topnav">
+            <h1>Formularze</h1>
+            <li><a href="index.html">Formularz 1</a></li>
+            <li><a href="form2.html">Formularz 2</a></li>
+            <li><a href="form3.html">Formularz 3</a></li>
+            <li><a href="form4.html">Formularz 4</a></li>
+            <li><a href="form5.html">Formularz 5</a></li>
+            <li><a href="form6.html" class="active">Formularz 6</a></li>
+        </ul>
+    </header>
+    <form action="" method="post">
+    <table>
+<tr>
+    <td id="td1">
+        <label>
+        Nazwisko:
+        </label>
+        <input id="input1" type="text" size="30" name="Nazw" />
+        <br />
+        <label>
+        Imię:
+        </label>
+        <input id="input1" type="text" size="30" name="Imię" />
+        <br />
+        <label>
+        PESEL: 
+        </label>
+        <input id="input1" type="text" size="30" name="pesel" />
+        <br />
+    </td>
+    <td id="td2">
+        <input type="checkbox" name="przedmiot1" value="polski" />J.polski
+        <br />
+        <input type="checkbox" name="przedmiot2" value="matma" />Matematyka
+        <br />
+        <input type="checkbox" name="przedmiot3" value="fizyka" />Fizyka
+    </td>
+    <td>
+        Uwagi:
+        <br />
+        <textarea rows="1" cols="35"></textarea>
+    </td>
+</tr>
+<tr>
+    <td>
+
+    </td>
+    <td>
+        <select name="dni" style="width: 10vw;">
+            <option>poniedziałek</option>
+            <option>wtorek</option>
+            <option>środa</option>
+            <option>czwartek</option>
+            <option>piątek</option>
+            <option>sobota</option>
+            <option>niedziela</option>
+        </select>
+    </td>
+</tr>
+    </table>
+    <input id="input3" type="submit" name="wyslij" value="Wyślij" />
+            &nbsp;&nbsp;
+    <input id="input1" type="reset" name="zeruj" value="Wyczyść" />
+</form>
+    <footer class="footershort">
+        <address>
+        Copyright <a href="mailto:bartosz.zawadzki-pietrzak@tm1.edu.pl">Bartosz Zawadzki - Pietrzak</a> 2022 &copy;
+        </address>
+    </footer>
+</body>
+</html>
